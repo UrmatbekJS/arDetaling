@@ -1,0 +1,72 @@
+.DryCleaningComponent {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    margin: 10px 0;
+    font-size: 32px;
+  }
+  .DryCleaningComponent__Descr {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    @media (max-width: 427px) {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .DryCleaningComponent__Descr_Right {
+      li {
+        font-weight: bold;
+        margin: 20px 0;
+      }
+    }
+    video {
+      border-radius: 5px;
+      width: 180px;
+      object-fit: contain;
+      z-index: -1;
+
+      &.animateLeft {
+        animation: slideInFromLeft 1s ease-in-out;
+      }
+    }
+  }
+  .DryCleaningComponent__Descr_Right {
+    &.animateRight {
+      animation: slideInFromRight 1s ease-in-out;
+    }
+  }
+}
+
+/* Анимации для появления */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

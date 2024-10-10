@@ -1,0 +1,64 @@
+.PolyurethaneComponent {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+
+  h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .PolyurethaneComponent__Descr {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .PolyurethaneComponent__Descr_Right {
+      margin-left: 40px;
+
+      li {
+        margin: 40px 0;
+        font-weight: bold;
+
+        @media (max-width: 427px) {
+          max-width: 350px;
+          margin: 20px 0;
+        }
+      }
+
+      // @media (max-width: 427px) {
+      //   margin: 0;
+      // }
+    }
+
+    video {
+      border-radius: 5px;
+      width: 200px;
+      object-fit: contain;
+      z-index: -1;
+    }
+
+    // @media (max-width: 427px) {
+    //   display: flex;
+    //   flex-direction: column;
+    //   justify-content: center;
+    //   align-items: center;
+    // }
+  }
+
+  @media (max-width: 427px) {
+    h2 {
+      font-size: 20px;
+    }
+
+    .PolyurethaneComponent__Descr {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

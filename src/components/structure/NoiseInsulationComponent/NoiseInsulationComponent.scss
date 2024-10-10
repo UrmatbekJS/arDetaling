@@ -1,0 +1,46 @@
+.NoiseInsulationComponent {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 427px) {
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .NoiseInsulationComponent__Descr {
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 427px) {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .NoiseInsulationComponent__Descr_Left {
+      li {
+        font-weight: bold;
+        margin: 30px 0;
+      }
+    }
+
+    .NoiseInsulationComponent__Descr_Right {
+      video {
+        border-radius: 5px;
+        width: 180px;
+        object-fit: contain;
+        z-index: -1;
+      }
+    }
+  }
+}

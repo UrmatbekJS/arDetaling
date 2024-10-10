@@ -1,0 +1,40 @@
+.PolishingComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .PolishingComponent__Descr {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 427px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .PolishingComponent__Descr_List {
+      li {
+        font-weight: bolder;
+        margin: 20px 0;
+      }
+    }
+
+    .PolishingComponent__Descr_Video {
+      video {
+        border-radius: 5px;
+        width: 300px;
+        object-fit: contain;
+        z-index: -1;
+      }
+    }
+  }
+}
