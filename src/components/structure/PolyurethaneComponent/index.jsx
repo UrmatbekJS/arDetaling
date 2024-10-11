@@ -21,7 +21,7 @@ const PolyurethaneComponent = () => {
 
         <div className="PolyurethaneComponent__Descr_Left">
           <video autoPlay loop muted>
-            <source src="/videos/IMG_5719.mp4" type="video/mp4" />
+            <source src="/videos/IMG_6345.MP4" type="video/mp4" />
           </video>
         </div>
       </div>
