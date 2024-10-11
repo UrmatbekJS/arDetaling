@@ -5,7 +5,7 @@ const PolyurethaneComponent = () => {
     <div className="PolyurethaneComponent" id="services">
       <h2>Оклейка полиуретановой пленкой</h2>
       <div className="PolyurethaneComponent__Descr">
-        <div className="PolyurethaneComponent__Descr_Right">
+        <div className="PolyurethaneComponent__Descr_Left">
           <ul>
             <li>Полная</li>
             <li>
@@ -19,10 +19,12 @@ const PolyurethaneComponent = () => {
           </ul>
         </div>
 
-        <div className="PolyurethaneComponent__Descr_Left">
-          <video autoPlay loop muted>
+        <div className="PolyurethaneComponent__Descr_Right">
+          <img src="/images/image_bmw.png" alt="BMW" />
+          <img src="/images/image_gelik.png" alt="Gelik" />
+          {/* <video autoPlay loop muted>
             <source src="/videos/IMG_6345.MP4" type="video/mp4" />
-          </video>
+          </video> */}
         </div>
       </div>
     </div>

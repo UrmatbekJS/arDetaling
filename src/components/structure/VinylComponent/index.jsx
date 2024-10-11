@@ -6,9 +6,10 @@ const VinylComponent = () => {
       <h2>Оклейка виниловой пленкой</h2>
       <div className="VinylComponent__Descr">
         <div className="VinylComponent__Descr_Left">
-          <video autoPlay loop muted>
+          {/* <video autoPlay loop muted>
             <source src="/videos/IMG_6344.MP4" type="video/mp4" />
-          </video>
+          </video> */}
+          <img src="/images/image_vinyl.png" alt="Vinyl" />
         </div>
         <div className="VinylComponent__Descr_Right">
           <ul>
