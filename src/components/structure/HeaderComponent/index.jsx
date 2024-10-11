@@ -39,10 +39,7 @@ const HeaderComponent = () => {
 
   return (
     <>
-      <div
-        className={`HeaderComponent ${scrolled ? "scrolled" : ""}`}
-        id="header"
-      >
+      <div className={`HeaderComponent ${scrolled ? "scrolled" : ""}`}>
         <div className="HeaderComponent__Left">
           <a href="#header" onClick={(e) => handleClick(e, "header")}>
             <img src="/images/detaling__logo.png" alt="Logo" />

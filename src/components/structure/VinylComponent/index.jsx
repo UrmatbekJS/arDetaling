@@ -7,7 +7,7 @@ const VinylComponent = () => {
       <div className="VinylComponent__Descr">
         <div className="VinylComponent__Descr_Left">
           <video autoPlay loop muted>
-            <source src="/videos/IMG_6059.mp4" type="video/mp4" />
+            <source src="/videos/img-6059.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="VinylComponent__Descr_Right">
