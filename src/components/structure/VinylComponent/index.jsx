@@ -9,7 +9,9 @@ const VinylComponent = () => {
           {/* <video autoPlay loop muted>
             <source src="/videos/IMG_6344.MP4" type="video/mp4" />
           </video> */}
-          <img src="/images/image_vinyl.png" alt="Vinyl" />
+          {/* <img src="/images/Винил1.PNG" alt="" /> */}
+          <img src="/images/Винил2.PNG" alt="" />
+          {/* <img src="/images/Винил3.PNG" alt="" /> */}
         </div>
         <div className="VinylComponent__Descr_Right">
           <ul>

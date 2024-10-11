@@ -5,9 +5,10 @@
   align-items: center;
 
   .VinylComponent__Descr {
+    margin-top: 20px;
     width: 400px;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
@@ -19,6 +20,7 @@
     }
 
     .VinylComponent__Descr_Left {
+      display: flex;
       // video {
       //   border-radius: 5px;
       //   width: 200px;
@@ -26,7 +28,8 @@
       //   z-index: -1;
       // }
       img {
-        width: 400px;
+        border-radius: 5px;
+        width: 200px;
       }
     }
 

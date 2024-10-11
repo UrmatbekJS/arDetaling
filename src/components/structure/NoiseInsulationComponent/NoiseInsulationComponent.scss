@@ -16,6 +16,7 @@
     margin-top: 20px;
     width: 400px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
@@ -35,12 +36,16 @@
     }
 
     .NoiseInsulationComponent__Descr_Right {
-      video {
+      img {
         border-radius: 5px;
-        width: 180px;
-        object-fit: contain;
-        z-index: -1;
+        width: 400px;
       }
+      // video {
+      //   border-radius: 5px;
+      //   width: 180px;
+      //   object-fit: contain;
+      //   z-index: -1;
+      // }
     }
   }
 }

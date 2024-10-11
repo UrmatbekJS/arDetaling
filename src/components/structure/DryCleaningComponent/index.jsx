@@ -34,9 +34,12 @@ const DryCleaningComponent = () => {
       <h2>Химчистка</h2>
       <div className="DryCleaningComponent__Descr">
         <div className="DryCleaningComponent__Descr_Left" ref={firstLeftRef}>
-          <video autoPlay loop muted>
+          <img src="/images/Химчистка1.HEIC" alt="Химчистка" />
+          <img src="/images/Химчистка 2.HEIC" alt="Химчистка" />
+          <img src="/images/Химчистка3.HEIC" alt="Химчистка" />
+          {/* <video autoPlay loop muted>
             <source src="/videos/Химчистка.MP4" type="video/mp4" />
-          </video>
+          </video> */}
         </div>
         <div className="DryCleaningComponent__Descr_Right" ref={firstRightRef}>
           <ul>

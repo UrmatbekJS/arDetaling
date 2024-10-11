@@ -12,9 +12,19 @@
   .DryCleaningComponent__Descr {
     margin-top: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 500px;
+
+    .DryCleaningComponent__Descr_Left {
+      display: flex;
+      gap: 20px;
+      img {
+        border-radius: 5px;
+        width: 200px;
+      }
+    }
 
     @media (max-width: 427px) {
       margin-top: 20px;

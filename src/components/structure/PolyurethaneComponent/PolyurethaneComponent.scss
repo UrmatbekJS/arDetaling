@@ -13,18 +13,24 @@
   .PolyurethaneComponent__Descr {
     width: 600px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
     .PolyurethaneComponent__Descr_Right {
+      display: flex;
+      gap: 20px;
+
       img {
-        width: 400px;
+        margin-top: 20px;
+        border-radius: 5px;
+        width: 150px;
       }
     }
 
     .PolyurethaneComponent__Descr_Left {
       li {
-        margin: 40px 0;
+        margin: 20px 0;
         font-weight: bold;
 
         @media (max-width: 427px) {
