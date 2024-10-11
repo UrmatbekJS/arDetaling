@@ -32,11 +32,6 @@
       li {
         margin: 20px 0;
         font-weight: bold;
-
-        @media (max-width: 427px) {
-          max-width: 350px;
-          margin: 20px 0;
-        }
       }
 
       // @media (max-width: 427px) {
@@ -44,12 +39,12 @@
       // }
     }
 
-    video {
-      border-radius: 5px;
-      width: 200px;
-      object-fit: contain;
-      z-index: -1;
-    }
+    // video {
+    //   border-radius: 5px;
+    //   width: 200px;
+    //   object-fit: contain;
+    //   z-index: -1;
+    // }
 
     // @media (max-width: 427px) {
     //   display: flex;
@@ -69,6 +64,17 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    .PolyurethaneComponent__Descr_Right {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .PolyurethaneComponent__Descr_Left {
+      width: 250px;
+      max-width: 350px;
+      margin: 20px 0;
     }
   }
 }

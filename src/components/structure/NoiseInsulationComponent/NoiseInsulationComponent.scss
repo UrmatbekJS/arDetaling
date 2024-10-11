@@ -39,6 +39,11 @@
       img {
         border-radius: 5px;
         width: 400px;
+
+        @media (max-width: 427px) {
+          margin-top: 20px;
+          width: 300px;
+        }
       }
       // video {
       //   border-radius: 5px;

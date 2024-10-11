@@ -7,7 +7,7 @@ const PolishingComponent = () => {
 
       <div className="PolishingComponent__Descr">
         <div className="PolishingComponent__Descr_Video">
-          <img src="/public/images/Полировка1.PNG" alt="" />
+          <img src="/images/Полировка1.PNG" alt="" />
           {/* <img src="/public/images/Полировка2.PNG" alt="" /> */}
 
           {/* <video autoPlay loop muted>
